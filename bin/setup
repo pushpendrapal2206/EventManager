@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run unit tests
+mvn clean install
+# bring up and run application
+./bin/event_manager $1
